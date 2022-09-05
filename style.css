@@ -143,14 +143,3 @@ footer img:hover{
 }
 
 /*Media Queries*/
-
-@media (max-width: 1400px){
-
-    /****Left Side****/
-
-    .container .box-img img{
-        width: 700px;
-        margin-right: 3.0rem;
-    }
-
-}
