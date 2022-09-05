@@ -264,12 +264,63 @@
     
 }
 
+/*Media Queries 458px*/
+
+@media screen and (max-width: 458px){
+
+    header img{
+        width: 110px;
+    }
+
+    .container .box-info h1{
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .container .box-info p{
+        font-size: .9rem;
+        line-height: 1.3rem;
+    }
+
+}
+
+/*Media Queries 377px*/
+
+@media screen and (max-width: 377px){
+
+    header img{
+        width: 100px;
+    }
+
+    .container .box-info h1{
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .container .box-info p{
+        font-size: .8rem;
+        line-height: 1.3rem;
+    }
+
+}
+
 /*Media Queries 350px*/
 
 @media screen and (max-width: 350px){
 
+
     header img{
         width: 100px;
+    }
+
+    .container .box-info h1{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .container .box-info p{
+        font-size: .8rem;
+        line-height: 1.3rem;
     }
     
 }
