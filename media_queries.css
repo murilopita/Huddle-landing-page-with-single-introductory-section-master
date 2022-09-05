@@ -1,0 +1,275 @@
+/****Media Queries****/
+
+/*Media Queries 1430px*/
+
+@media screen and (max-width: 1430px){
+
+    .container .box-img img{
+        width: 840px;
+    }
+
+    .box-info{
+       bottom: 80px; 
+    }
+
+    .box-info h1{
+        font-size: 2.4rem ;
+        line-height: 3.0rem;
+    }
+
+    footer{
+        margin-right: 1rem;
+    }
+
+}
+
+/*Media Queries 1415px*/
+
+@media screen and (max-width: 1415px){
+
+    .container .box-img img{
+        width: 810px;
+    }
+
+    .box-info h1{
+        font-size: 2.0rem ;
+        line-height: 3.0rem;
+    }
+
+    footer{
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+}
+
+/*Media Queries 1340px*/
+
+@media screen and (max-width: 1340px){
+
+    .container .box-img img{
+        width: 770px;
+    }
+
+    .box-info{
+        bottom: 40px; 
+     }
+
+    footer{
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+}
+
+/*Media Queries 1265px*/
+
+@media screen and (max-width: 1265px){
+
+    .container .box-img img{
+        width: 740px;
+    }
+
+    footer{
+        margin-top: 3rem;
+        margin-right: 1rem;
+    }
+}
+
+/*Media Queries 1234px*/
+
+@media screen and (max-width: 1234px){
+
+    .container .box-img img{
+        width: 730px;
+    }
+
+    .box-info{
+        bottom: 30px; 
+    }
+
+    footer{
+        margin-top: 4rem;
+        margin-right: 1rem;
+    }
+}
+
+/*Media Queries 1224px*/
+
+@media screen and (max-width: 1224px){
+
+    .container .box-img img{
+        width: 700px;
+    }
+
+    .box-info{
+        bottom: 20px; 
+    }
+
+    footer{
+        margin-top: 5rem;
+        margin-right: 1rem;
+    }
+}
+
+/*Media Queries 1200px*/
+
+@media screen and (max-width: 1200px){
+    body{
+        flex-direction: column;
+        background: url(images/bg-mobile.svg), var(--Violet);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header{
+        display: flex;
+        justify-content: start;
+        margin-left: 20%;
+        
+    }
+
+    header img{
+        width: 180px;
+    }
+
+    .container{
+        width: 65%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .container .box-img{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+    .container .box-img img{
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+
+    .container .box-info{
+        margin: 3.0rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .box-info h1 {
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .container .box-info  p{
+        text-align: center;
+
+    }
+
+    .container .box-info button{
+        margin-top: 1.0rem;
+        width: 280px;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        padding-bottom: 2rem;
+    }
+    
+    footer img{
+        margin-right: 1rem;
+    }
+}
+
+/*Media Queries 600px*/
+
+@media screen and (max-width: 600px){
+    body{
+        flex-direction: column;
+        background: url(images/bg-mobile.svg), var(--Violet);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    header{
+        display: flex;
+        justify-content: start;
+        margin-left: 17%;
+        margin-top: 50px;
+    }
+
+    header img{
+        width: 150px;
+    }
+
+    .container .box-info h1{
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+    .container .box-info p{
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+
+    .container .box-info button{
+        margin-top: 1.0rem;
+        width: 220px;
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
+}
+
+/*Media Queries 500px*/
+
+@media screen and (max-width: 500px){
+
+    header img{
+        width: 130px;
+    }
+
+    .container .box-info button{
+        margin-top: 1.0rem;
+        width: 200px;
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    footer{
+        margin-left: 1.5rem;
+    }
+
+    footer img{
+        width: 35px;
+    }
+    
+}
+
+/*Media Queries 350px*/
+
+@media screen and (max-width: 350px){
+
+    header img{
+        width: 100px;
+    }
+    
+}
