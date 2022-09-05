@@ -61,7 +61,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Frontend Mentor Solution]()
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-uzErydXeNj)
 - Live Site URL: [Live Site at Vercel](https://huddle-landing-page-with-single-introductory-section-murilopita.vercel.app/)
 
 <br>
