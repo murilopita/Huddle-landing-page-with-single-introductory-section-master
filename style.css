@@ -109,6 +109,7 @@ button{
     font-size: 1rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.473);
     cursor: pointer;
+    transition: all ease-in 0.4s
 }
 
 button:hover{
@@ -133,6 +134,7 @@ footer img{
     padding: 10px 10px;
     border-radius: 50px;
     cursor: pointer;
+    transition: all ease-in 0.4s
 }
 
 footer img:hover{
